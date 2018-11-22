@@ -42,7 +42,7 @@ nav {
 li {
     padding: 20px;
     justify-content: space-between;
-    transition: background 0.5s, color 0.2s;
+    transition: background 0.4s, color 0.2s;
 }
 
  .language li:hover {
@@ -69,12 +69,14 @@ li {
 
 .about {
     justify-content: flex-start;
-    padding: 35px;
-    margin: 45px 30px;
-    max-width: 45%;
+    box-sizing: border-box;
+    padding: 130px 120px 100px;
+    max-width: 100%;
     flex-basis: 300px;
-    background-color: rgba(255, 255, 255, 0.4);
+    text-shadow: #000000 1px 1px 10px;
     color: #fbffff;
+    text-align: center;
+
 }
 
 .button {
@@ -96,7 +98,7 @@ li {
 }
 
 h1 {
-    font-size: 40pt;
+    font-size: 50pt;
     line-height: 2;
     font-weight: bold;
 }
@@ -105,13 +107,13 @@ h2 {
     font-size: 30pt;
     font-weight: bold;
     line-height: 1;
-    font-family: Hind, sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #515769;
 }
 
 h3 {
     font-size: 20pt;
-    font-family: Hind, sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #515769;
     font-weight: bold;
     line-height: 1.5;
@@ -121,13 +123,13 @@ h4 {
     font-size: 14pt;
     line-height: 2;
     font-weight: 500;
-    font-family: Hind, sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #a6a7aa;
 }
 
 h5 {
     font-size: 13pt;
-    font-family: Hind, sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #515769;
     font-weight: bold;
 }
@@ -143,30 +145,39 @@ h5 {
 .intro {
     display: flex;
     flex-wrap: wrap;
-    margin: 5% 0%;
+    box-sizing: border-box;
+    padding: 5% 0%;
+    background-color: #f5f5f5;
 }
 
 .skills {
     box-sizing: border-box;
     padding: 40px 60px;
     flex-grow: 1;
-    max-width: 72%;
+    max-width: 69%;
     font-weight: 400;
-    font-family: Hind, sans-serif;
+    font-family: 'Playfair Display', serif;
     line-height: 2;
-    color: #a6a7aa;
+    color: #515769;
     display: flex;
     flex-direction: column;
-
+    background-color: white;
+    box-sizing: border-box;
+    margin-right: 3%;
 }
+
+.skills p {
+    margin: 20px 0px;
+}
+
 .me {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     max-width: 28%;
-    align-items: center;
+    text-align: center;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 50px;
 
 }
 
@@ -194,17 +205,19 @@ img {
 	align-items: center;
     line-height: 1.5;
     padding-left: 25px;
+    box-sizing: border-box;
 }
 
 .item {
-    margin: 10px;
-    max-width: 25%;
+    padding: 10px;
+    max-width: 24%;
     flex-basis: 300px;
 	color: #fffeff;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10pt;
-	text-align: center;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .img_Item {
@@ -215,13 +228,14 @@ img {
 .experience {
     display: flex;
     flex-wrap: wrap;
-    background-color: #fafafa;
+    background-color: #f5f5f5;
     padding: 100px 30px;
+    box-sizing: border-box;
 }
 
 .experience_Description {
     text-align: center;
-    width: 32%;
+    width: 30%;
     box-sizing: border-box;
     padding: 30px 20px;
 }
@@ -247,20 +261,11 @@ img {
     box-sizing: border-box;
     padding: 40px;
     transition: 0.5s;
-    min-width: 250px;
+    min-width: 200px;
 }
 
 .example_Item:hover{
     transform: scale(1.1);
-}
-
-.example_Item:first-child{
-    background-color: #0b7149;
-    color: white;
-}
-
-.example_Item:first-child h3{
-    color: white;
 }
 
 .project {
@@ -284,7 +289,7 @@ img {
 footer {
     display: flex;
     flex-wrap: wrap;
-    background-color: #fafafa;
+    background-color: #f5f5f5;
     box-sizing: border-box;
     padding: 40px; 
 }
