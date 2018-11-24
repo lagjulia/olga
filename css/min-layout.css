@@ -1,0 +1,84 @@
+
+header {
+    line-height: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+li {
+    margin: 0px;
+    padding: 3px;
+    justify-content: space-between;
+    transition: background 0.4s, color 0.2s;
+    color: #1c1f16;
+    font-size: 6pt;font-size: 6pt;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.language li {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 13pt;
+    padding: 5px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 12pt;
+}
+
+h3 {
+    font-size: 10pt;
+}
+
+h4 {
+    font-size: 8pt;
+}
+
+h5 {
+    font-size: 6pt;
+}
+
+.me {
+    margin: -10px 0px 0px 20px;
+    padding: 30px;
+}
+
+.about p {
+    font-size: 8pt;
+}
+
+.gallery_Destinations {
+    line-height: 1;
+    padding-left: 15px;
+}
+
+.item {
+    min-width: 130px;
+	font-size: 7pt;
+}
+
+.example_Item p {
+    font-size: 8pt;
+}
+
+.contacts_Item p {
+    font-size: 8pt;
+
+}
+
+.skills p {
+    max-width: 300px;
+    font-size: 7pt;
+    pad: 7px;
+    box-sizing: border-box;
+}
+
+.project p {
+    max-width: 300px;
+    font-size: 7pt;
+}

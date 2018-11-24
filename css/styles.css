@@ -1,6 +1,7 @@
 header {
     background-image: url('../picture/01.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -35,8 +36,7 @@ nav {
     flex-wrap: wrap;
     flex-grow: 1;
     padding: 25px;
-    border-bottom: 0.5px solid transparent;
-    box-shadow: 0 0 2px rgba(255, 255, 255, 0.733);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.733);
 }
 
 li {
@@ -68,7 +68,6 @@ li {
 }
 
 .about {
-    justify-content: flex-start;
     box-sizing: border-box;
     padding: 130px 120px 100px;
     max-width: 100%;
@@ -153,12 +152,7 @@ h5 {
 .skills {
     box-sizing: border-box;
     padding: 40px 60px;
-    flex-grow: 1;
     max-width: 69%;
-    font-weight: 400;
-    font-family: 'Playfair Display', serif;
-    line-height: 2;
-    color: #515769;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -167,17 +161,24 @@ h5 {
 }
 
 .skills p {
-    margin: 20px 0px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 2;
+    color: #515769;
+    font-size: 15pt;
+    max-width: 800px;
+    padding: 10px 0px;
 }
 
 .me {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     max-width: 28%;
     text-align: center;
     box-sizing: border-box;
     padding: 50px;
+    min-width: 200px;
 
 }
 
@@ -197,21 +198,21 @@ img {
 }
 .gallery_Destinations {
     width: 100%;
-	height: 130px;
+	height: 150px;
 	display: flex;
-    background-color: rgba(48, 88, 56, 0.4);
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
     line-height: 1.5;
     padding-left: 25px;
     box-sizing: border-box;
+    background-color: rgba(48, 88, 56, 0.4);
 }
 
 .item {
     padding: 10px;
     max-width: 24%;
-    flex-basis: 300px;
+    min-width: 200px;
 	color: #fffeff;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
@@ -235,7 +236,7 @@ img {
 
 .experience_Description {
     text-align: center;
-    width: 30%;
+    width: 28%;
     box-sizing: border-box;
     padding: 30px 20px;
 }
@@ -259,9 +260,10 @@ img {
     line-height: 2;
     color: #a6a7aa;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 30px 40px 40px;
     transition: 0.5s;
-    min-width: 200px;
+    min-width: 230px;
+    
 }
 
 .example_Item:hover{
@@ -278,7 +280,8 @@ img {
     text-align: center;
 }
 
-.project p{
+.project p {
+    max-width: 800px;
     font-weight: 400;
     font-family: Hind, sans-serif;
     line-height: 1.5;
@@ -305,6 +308,7 @@ footer {
     flex-wrap: wrap;
     padding: -10px 20px 0px;
     box-sizing: border-box;
+    margin-top: -20px;
 }
 
 .contacts_Item {
@@ -312,6 +316,7 @@ footer {
     box-sizing: border-box;
     padding: 0px 20px;
     min-width: 200px;
+
 }
 
 .contacts_Item p {
