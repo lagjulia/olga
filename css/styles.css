@@ -24,7 +24,7 @@ ul {
     display: flex;
 }
 
-a{
+a {
     color: #1c1f16;
 }
 
@@ -43,6 +43,10 @@ li {
     padding: 20px;
     justify-content: space-between;
     transition: background 0.4s, color 0.2s;
+}
+
+li a {
+    color: #fbffff;
 }
 
  .language li:hover {
@@ -93,6 +97,16 @@ li {
 
 .button:hover {
     background: rgb(48, 88, 56);
+    color: #fbffff;
+}
+
+}
+
+.button a {
+    color: #919aa3;
+}
+
+.button:hover {
     color: #fbffff;
 }
 

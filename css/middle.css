@@ -14,18 +14,26 @@ li {
 }
 
 .language li {
-    color: #1c1f16;;
+    color: #1c1f16;
     padding: 10px;
     transition: background 0.4s, color 0.2s;
 }
 
 .language li:hover {
-    background: rgba(48, 88, 56, 0.7);
+    background: rgba(48, 88, 56, 0.4);
     color: #fbffff;
  }
 
+ .language li a {
+    color: #1c1f16;
+ }
+
+.language li:hover a {
+    color: #fbffff;
+}
+
 h1 {
-    font-size: 23pt;
+    font-size: 30pt;
     padding: 5px;
     line-height: 1;
 }
@@ -47,12 +55,12 @@ h5 {
 }
 
 .about {
-    padding: 10px;
-    margin: 0px;
+    padding: 30px;
+    margin: 10px;
 }
 
 .about p { 
-    font-size: 16pt;
+    font-size: 25pt;
     padding: 15px;
     line-height: 1;
     margin-bottom: 10px;
