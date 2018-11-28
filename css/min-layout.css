@@ -99,6 +99,7 @@ h5 {
 
 .hire_me {
     min-width: 36%;
+    align-items: flex-start;
 }
 
 .contacts {

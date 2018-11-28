@@ -105,6 +105,10 @@ h5 {
     flex-wrap: wrap;
 }
 
+.example_Item {
+    min-width: 33%;
+    max-width: 100%;
+}
  .example_Item p {
     max-width: 100%;
     font-size: 11pt;
