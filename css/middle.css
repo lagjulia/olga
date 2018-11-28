@@ -100,11 +100,20 @@ h5 {
     max-width: 100px;
  }
 
+ .specialization  {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ .example_Item p {
+    max-width: 100%;
+    font-size: 11pt;
+}
  .gallery_Destinations {
      display: flex;
      flex-wrap: wrap;
  }
 
  .item {
-     min-width: 150px;
+     min-width: 170px;
  }

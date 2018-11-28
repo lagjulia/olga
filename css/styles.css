@@ -100,13 +100,12 @@ li a {
     color: #fbffff;
 }
 
-}
 
 .button a {
     color: #919aa3;
 }
 
-.button:hover {
+.button:hover a {
     color: #fbffff;
 }
 
@@ -248,9 +247,10 @@ img {
     box-sizing: border-box;
 }
 
+
 .experience_Description {
     text-align: center;
-    width: 28%;
+    min-width: 32%;
     box-sizing: border-box;
     padding: 30px 20px;
 }
@@ -266,9 +266,8 @@ img {
     background-color: white;
 }
 
-
 .example_Item {
-    max-width: 33%;
+    max-width: 32%;
     font-weight: 400;
     font-family: Hind, sans-serif;
     line-height: 2;

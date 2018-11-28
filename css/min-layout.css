@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 h3 {
@@ -56,15 +56,28 @@ h5 {
 .gallery_Destinations {
     line-height: 1;
     padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 240px;
+}
+
+.experience_Description {
+    min-width: 300px;
 }
 
 .item {
-    min-width: 130px;
-	font-size: 7pt;
+    min-width: 100%;
+    font-size: 9pt;
+    flex-direction: column;
 }
 
 .example_Item p {
-    font-size: 8pt;
+    font-size: 10pt;
+}
+
+.experience_Examples {
+    min-width: 200px;
 }
 
 .contacts_Item p {
@@ -83,3 +96,17 @@ h5 {
     max-width: 300px;
     font-size: 7pt;
 }
+
+.hire_me {
+    min-width: 36%;
+}
+
+.contacts {
+    margin-top: 0px;
+}
+
+.contacts_Item {
+    padding: 0px;
+    margin: -5px 0px;
+}
+
